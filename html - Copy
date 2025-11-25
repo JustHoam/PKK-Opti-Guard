@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisionGuard CCTV</title>
+  <style>
+    /* ====== Global Style ====== */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #f0f4f8; /* Latar belakang lebih terang dan bersih */
+      color: #333;
+    }
+
+    /* ====== Header ====== */
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradien biru yang lebih hidup */
+      color: #fff;
+      text-align: center;
+      padding: 70px 20px;
+      position: relative;
+    }
+
+    /* Logo di header */
+    header img.logo {
+      width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #cce0ff;
+    }
+
+    /* ====== Container ====== */
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    /* ====== Tentang Kami ====== */
+    .about {
+      background-color: #ffffff; /* Putih bersih */
+      text-align: center;
+      margin-top: 40px;
+      padding: 50px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .about h2 {
+      color: #1e3c72; /* Biru gelap */
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    /* ====== Produk ====== */
+    .products {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #e6f2ff; /* Biru muda lembut */
+    }
+
+    .products h2 {
+      color: #1e3c72;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .product-card {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .product-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .product-card h3 {
+      background: #1e3c72; /* Biru gelap */
+      color: white;
+      margin: 0;
+      padding: 15px 0;
+      font-size: 18px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    /* ====== CTA ====== */
+    .cta {
+      background: linear-gradient(135deg, #63e392, #1ebe5d); /* Gradien hijau untuk CTA */
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+      margin: 60px 0;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .cta p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #fff; 
+      color: #1ebe5d;
+      padding: 15px 40px;
+      border-radius: 10px;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #d4f7e3;
+    }
+
+    /* ====== Footer ====== */
+    footer {
+      background-color: #1e3c72;
+      color: #ddd;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img class="c:\Users\SMKN4 BANDUNG\Downloads\Smart Camera Installation Logo – Security & Tech Branding Inspiration (3).jpeg" alt="Logo CCTV">
+      <h1>Opti guard</h1>
+      <p>Solusi Keamanan Terbaik untuk Rumah & Bisnis Anda</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>
+        Kami menyediakan layanan pemasangan dan penjualan CCTV serta perlengkapan jaringan terbaik.
+        Produk kami mencakup kamera CCTV, kabel Cat 6, NVR, dan aksesoris lainnya.
+        Kami berkomitmen memberikan keamanan maksimal untuk rumah dan bisnis Anda.
+      </p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <h2>Produk Kami</h2>
+      <div class="product-grid">
+        <a
+          href="https://wa.me/6289671314053?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Kamera%20CCTV%20Anda."
+          target="_blank"
+          class="product-card"
+        >
+          <img
+            src="c:\Users\SMKN4 BANDUNG\Downloads\6923172539816 Ip Camera Dahua Ipc-hfw2241s-s-0280b Dahua.jpeg"
+            alt="Kamera CCTV"
+          />
+          <h3>Kamera CCTV</h3>
+        </a>
+
+        <a
+          href="https://wa.me/6289671314053?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Kabel%20Cat6%20Anda."
+          target="_blank"
+          class="product-card"
+        >
+          <img
+            src="c:\Users\SMKN4 BANDUNG\Downloads\KABEL DAHUA UTP CAT6 DH-PFM9221-6UN-C ( ORANGE _ BIRU) _ meter.jpeg"
+            alt="Kabel Cat6"
+          />
+          <h3>Kabel Cat6</h3>
+        </a>
+
+        <a
+          href="https://wa.me/6289671314053?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20NVR%20Anda."
+          target="_blank"
+          class="product-card"
+        >
+          <img
+            src="c:\Users\SMKN4 BANDUNG\Downloads\Dahua DHI-NVR5216-16P-I 16-Channel WizMind Network Video Recorder _ AI-Powered PoE NVR for Intelligent Surveillance.jpeg" 
+            alt="NVR (Network Video Recorder)"
+          />
+          <h3>NVR</h3>
+        </a>
+
+        <a
+          href="https://wa.me/6289671314053?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Konektor%20RJ45%20Anda."
+          target="_blank"
+          class="product-card"
+        >
+          <img
+            src="c:\Users\SMKN4 BANDUNG\Downloads\25X RJ45 RJ-45 CAT5 Modular Plug Network Connector for Cat5 Cat5e Cat6 Cable For Sale - AliExpress 13.jpeg"
+            alt="Konektor RJ45"
+          />
+          <h3>Konektor RJ45</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Tertarik Dengan Produk Kami?</h2>
+      <p>Klik tombol di bawah untuk langsung terhubung dengan kami melalui WhatsApp.</p>
+      <a
+        href="https://wa.me/6289671314053?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Anda."
+        target="_blank"
+        class="btn"
+        >Pesan Sekarang</a
+      >
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VisionGuard CCTV. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
